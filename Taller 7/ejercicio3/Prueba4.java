@@ -1,6 +1,6 @@
 package ejercicio3;
 
-public class Prueba {
+public class Prueba4 {
     public static void main(String[] args) {
         Utilidades calc = new Utilidades();
 
