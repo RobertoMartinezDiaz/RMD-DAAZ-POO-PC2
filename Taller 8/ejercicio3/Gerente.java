@@ -1,0 +1,19 @@
+package ejercicio3;
+
+import ejercicio3.Empleado;
+
+public class Gerente extends Empleado {
+     private String departamento;
+
+    public Gerente(String nombre, double salario, String departamento) {
+
+        super(nombre, salario);
+        this.departamento = departamento;
+    }
+
+    @Override
+    public void mostrarDetalles() {
+        super.mostrarDetalles(); // Al existir en Empleado, ya no dará error
+        System.out.println("Departamento: " + departamento);
+    }
+}

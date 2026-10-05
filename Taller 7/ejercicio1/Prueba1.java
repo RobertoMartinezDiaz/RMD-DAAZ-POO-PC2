@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public class Prueba {
+public class Prueba1 {
     public static void main(String[] args) {
         // Instancia del objeto
         Empleado emp = new Empleado("Alejandro Pérez", 1800.0);
